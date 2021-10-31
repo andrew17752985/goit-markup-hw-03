@@ -29,12 +29,10 @@ body {
   padding-left: 15px;
   padding-right: 15px;
 }
-.link {
+a {
   text-decoration: none;
 }
-.list {
-  list-style: none;
-}
+
 .logo {
   font-family: 'Raleway', sans-serif;
   color: var(--accent-color);
@@ -52,10 +50,12 @@ h5 {
   margin: 0;
 }
 ul {
+  
   margin: 0;
   padding: 0;
 }
 img {
+  height: auto;
   display: block;
   max-width: 100%;
 }
@@ -78,9 +78,7 @@ img {
   color: #000;
   margin-right: 93px;
 }
- .header-item + .header-item{
-  margin-left: 50px;
-}
+ 
 .header-item{
 display: flex;
 padding-top: 32px;
@@ -165,7 +163,7 @@ padding-bottom: 32px;
 }
 
 /* --------------advantages-------------- */
-.advantages {
+.section {
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -212,8 +210,8 @@ padding-bottom: 32px;
 /* --------------command-------------- */
 .command {
   background-color: var(--backgrond-section-color);
-  padding-top: 94px;
-  padding-bottom: 94px;
+  /* padding-top: 94px;
+  padding-bottom: 94px; */
 }
 .command-title {
   margin-top: 0;
@@ -267,7 +265,7 @@ padding-bottom: 32px;
  
 }
 
-.footer-item {
+.footer-item :not(:first-child) {
   margin-top: 9px;
 }
 .footer-logo {
