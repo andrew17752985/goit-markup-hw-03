@@ -112,7 +112,6 @@ padding-bottom: 32px;
 }
 .header-tel-item + .header-tel-item {
   margin-left: 50px;
-  /* ------почему не работает? */
 }
 
 .header-tel-link {
@@ -167,6 +166,11 @@ padding-bottom: 32px;
   padding-top: 94px;
   padding-bottom: 94px;
 }
+.work-section{
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
 .advantages-list {
   display: flex;
 }
@@ -192,6 +196,7 @@ padding-bottom: 32px;
 .work {
   padding-bottom: 94px;
 }
+
 
 .work-title {
   margin-bottom: 50px;
